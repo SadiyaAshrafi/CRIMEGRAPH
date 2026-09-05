@@ -1,0 +1,11 @@
+id,source,target,type,amount_inr,timestamp,confidence_score,explain_trail
+edge_vicky_tariq,node_vicky,node_tariq,FUND_TRANSFER,124000000.0,2024-10-12 18:30:00,98,14 encrypted Hawala chits matched with Dubai export invoices and currency token code serials.
+edge_vicky_apex,node_vicky,node_apex_logistics,SHELL_DIRECTOR,85000000.0,2024-08-01 10:00:00,95,Singhania controls 80% shares through nominee shareholder Rohit Verma in Dubai freezone registry.
+edge_apex_rohit,node_apex_logistics,node_rohit_verma,SHELL_DIRECTOR,24500000.0,2024-08-05 14:00:00,94,Rohit Verma listed as sole resident Indian director on bank signing mandates.
+edge_rohit_mule1,node_rohit_verma,node_mule_account_1,FUND_TRANSFER,34000000.0,2024-10-10 11:15:00,92,Direct IMPS and RTGS batch credits originating from ICICI BKC account to Suresh Patel mule account.
+edge_rohit_mule2,node_rohit_verma,node_mule_account_2,FUND_TRANSFER,28000000.0,2024-10-11 15:40:00,90,"Smurfing transactions: 56 micro transfers under ₹50,000 threshold executed within 4 hours."
+edge_mule1_karan,node_mule_account_1,node_karan_tech,FUND_TRANSFER,32000000.0,2024-10-12 09:20:00,91,"Purchased 385,000 USDT on Binance P2P desk using Kotak CP account from mule funds."
+edge_karan_crypto,node_karan_tech,node_crypto_mixer,CRYPTO_TRANSFER,32000000.0,2024-10-12 10:45:00,99,On-chain transaction hash 0xfa39... confirms deposit into privacy mixer smart contract.
+edge_crypto_vicky,node_crypto_mixer,node_vicky,CRYPTO_TRANSFER,30500000.0,2024-10-13 04:10:00,93,Mixer exit pool routed equivalent clean assets to Vicky Singhania cold wallet.
+edge_vicky_ananya,node_vicky,node_ananya_broker,FUND_TRANSFER,185000000.0,2024-10-01 12:00:00,93,Luxury real estate token advance booked in Dubai through offshore escrow agreement.
+edge_rathore_sameer,node_inspector_rathore,node_sameer_courier,CALL,4500000.0,2024-10-15 01:15:00,97,Direct calls placed from police station landline & private cell minutes before enforcement raids.
