@@ -33,6 +33,7 @@ flowchart LR
     
     D --> E[⛓️ Blockchain Ledger<br/>SHA-256 Merkle Audit Chain]
     B & C & D & E --> F[🖥️ React 19 + D3.js UI<br/>Interactive Graph & Case Room]
+```
 **Technology Stack**
 Frontend: React 19, TypeScript, Vite, D3.js (v7), Lucide Icons, jsPDF / html2canvas
 Backend API: Python 3.11+, FastAPI, Uvicorn, Pydantic v2
