@@ -21,11 +21,8 @@
 | ⛓️ **Tamper-Proof Custody Ledger** | Cryptographic SHA-256 Merkle-tree blockchain audit log (Section 65B / BSA compliant). | Ensures digital evidence is admissible in court. |
 | 📑 **Court-Ready PDF Reports** | One-click exportable intelligence dossiers with graph snapshots and hash proofs. | Provides ready-to-present documentation for prosecutors. |
 
----
 
 ## 🏛️ System Architecture
-
-```mermaid
 flowchart LR
     A[📂 Ingestion Engine<br/>CDR, FIU, CCTNS, FIRs] --> B[⚙️ Core Graph Engine<br/>NetworkX + Centrality Analysis]
     A --> C[🔍 Entity Resolution<br/>Fuzzy Matching & Alias Linking]
